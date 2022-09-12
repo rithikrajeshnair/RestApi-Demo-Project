@@ -85,6 +85,9 @@ These features work togetherand allows us to setup a spring based application wi
 
 ![image](https://user-images.githubusercontent.com/46045404/189626998-9120c9b0-924f-4ab3-8d54-461212e306bc.png)
 
+* Controller is responsible for handling all ther requests.
+* Service is reposible for handling the business logic.
+* Repository is responsible for handling the data base.
 
 
 ## Steps - Implementing REST API in Spring Boot
