@@ -117,3 +117,18 @@ These features work togetherand allows us to setup a spring based application wi
 ### Create Flow
 ![image](https://user-images.githubusercontent.com/46045404/189640187-5f8c73ed-c756-4a4c-bd6a-14a0f254f1d4.png)
 
+
+* To transfer data from one layer to another we use an ENTITY
+* These Entity or POJO are mapped to the database by ORM (Object Relation Mapping).
+* Advantage of this is we can use different Database and still use the same code.
+* JPA is the standard which is followed by all the ORMs, hence the methods are same.
+
+
+* In java we can make 3 types of bundles
+    1. jar - Java Archive, its a kind of zip file. Always contains class files and java files. JVM is enough to run this.
+    2. war - Web Archive, it contins web files like ' .class, .html, .js, .jsp.' Web servers are required to run them (web container) Like Tomcat.
+    3. ear - Enterprise Archive, contains files like '.war and .jar'. Application servers are required to run them, (Applications servers = EJB container + web container). eg : JBOSS/Wildfly, WebLogic (Oracle), WeBSphere(IBM)
+
+* SOAPUI is the best tool to do performance , stress, Load test.
+* Data Transfer Object (DTO) / Value Object (VO)
+* Optional Object is introduced in Java 8, its good at null handling.
